@@ -32,6 +32,9 @@ module.exports = {
 			}
 		]
 	},
+	devServer: {
+		filename: './js/out.js',
+	},
 	plugins: [],
 	watch: true,
 	mode: 'development',

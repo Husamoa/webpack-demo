@@ -103,6 +103,9 @@ module.exports = {
 			filename: 'app.css'
 		})
 	],
+	devServer: {
+		filename: './dest/app.js',
+	},
 	watch: true,
 	mode: 'development', //alternative 'production'
 	devtool: 'source-map'
